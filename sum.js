@@ -1,4 +1,9 @@
-function sum(a, b) {
-    return a + b;
+function total() {
+    const str = 'This is a string';
+    for (let i = 0; i < str.length; i++)
+     return str[i];
+
   }
-  module.exports = sum;
+  console.log(total);
+
+  module.exports = total;
