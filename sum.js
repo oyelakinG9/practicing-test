@@ -1,4 +1,8 @@
-function sum(a, b) {
-    return a + b;
-  }
-  module.exports = sum;
+function total() {
+  const str = 'This is a string';
+  const count = str.length;
+  return count;
+}
+console.log(total);
+
+module.exports = total;
