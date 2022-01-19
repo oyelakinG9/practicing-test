@@ -1,5 +1,5 @@
-const total = require('./sum');
+const total = require('./sum.js');
 
 test('count through the string', () => {
-  expect(total("")).toBe(str.length);
-});   
+  expect(total('')).toBe(14);
+});
